@@ -1,0 +1,12 @@
+Feature:
+
+
+  Scenario: Try autorize with valid data
+    Given Enter login 'miroshka_n@i.ua'
+    And Enter passworg 'nadin123'
+    When I click login button
+    Then i check that user name is 'miroshka_n@i.ua'
+
+
+
+
